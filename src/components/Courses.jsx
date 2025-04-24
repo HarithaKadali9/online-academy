@@ -11,7 +11,7 @@ const Courses = () => {
             className="border border-gray-200 rounded-xl p-5 shadow-lg hover:shadow-2xl hover:scale-105 hover:border-blue-500 transition-transform duration-300 ease-in-out bg-white"
           >
             <h3 className="text-xl font-semibold mb-2 text-gray-800 hover:text-blue-700 p-2">{course.title}</h3>
-            <img src={course.image} alt='course image' className='h-30 w-30 rounded-sm p-2'/>
+            <img src={course.image} alt='course image' className='h-30 w-30 rounded-lg p-2'/>
             <p className="text-gray-600 mb-2 p-2">{course.description}</p>
             <p className="text-sm text-gray-700 p-2"><strong>Duration:</strong> {course.duration}</p>
             <p className="text-sm text-gray-700 p-2"><strong>Level:</strong> {course.level}</p>
