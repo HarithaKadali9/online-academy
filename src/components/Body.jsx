@@ -1,7 +1,8 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 const Body = () => {
+  const navigate=useNavigate();
   return (
     <div className='min-h-screen py-10'>
       <div className='max-w-7xl mx-auto px-6'>
@@ -25,7 +26,7 @@ const Body = () => {
           <p className='text-lg text-gray-700 mb-6'>
             Ready to advance your career? Choose a course and get started today!
           </p>
-          <button className='bg-blue-700 text-white text-lg font-semibold py-3 px-8 rounded-lg hover:bg-blue-800'>
+          <button onClick={()=>navigate("/courses")} className='bg-blue-700 text-white text-lg font-semibold py-3 px-8 rounded-lg hover:bg-blue-800'>
             Browse Courses
           </button>
         </div>
