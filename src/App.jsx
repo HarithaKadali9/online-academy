@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import Courses from './components/Courses';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <Footer/>
     </Router>
   );
 };
