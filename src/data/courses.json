@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "Python",
+      "image": "https://beecrowd.com/wp-content/uploads/2024/04/2022-07-19-Melhores-cursos-de-Python.jpg",
+      "description": "Learn the fundamentals of Python programming, including syntax, data structures, and object-oriented programming.",
+      "duration": "3 months",
+      "level": "Beginner"
+    },
+    {
+      "id": 2,
+      "title": "Java",
+      "image": "https://dac.digital/wp-content/uploads/2023/04/backend-java-optimized.png",
+      "description": "Master Java programming, covering object-oriented concepts, data structures, algorithms, and Java-based technologies.",
+      "duration": "3 months",
+      "level": "Intermediate"
+    },
+    {
+      "id": 3,
+      "title": "Python Full Stack",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240415204701/How-to-Become-a-Python-Full-Stack-Developer.png",
+      "description": "Dive into full-stack development using Python, covering both backend (Flask/Django) and frontend (HTML, CSS, JavaScript).",
+      "duration": "6 months",
+      "level": "Advanced"
+    },
+    {
+      "id": 4,
+      "title": "DevOps",
+      "image": "https://marvel-b1-cdn.bc0a.com/f00000000236551/dt-cdn.net/wp-content/uploads/2021/07/13429_ILL_DevOpsLoop.png",
+      "description": "Learn the practices and tools used in DevOps for continuous integration, deployment, and automation in software development.",
+      "duration": "4 months",
+      "level": "Intermediate"
+    },
+    {
+      "id": 5,
+      "title": "MERN Stack",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMjUqDob5lqGBj6b0tCxntv6zmZp67aUn6Nw&s",
+      "description": "Learn how to build full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN Stack).",
+      "duration": "6 months",
+      "level": "Advanced"
+    }
+  ]
+  
