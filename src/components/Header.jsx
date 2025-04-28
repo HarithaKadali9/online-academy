@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // Icons from lucide-react
-import image from "../assets/image.png";
+import image from "../assets/onlineAcademy.jpeg";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -11,7 +11,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <div className="h-14 w-14">
-          <img src={image} alt="My Logo" className="h-full w-full object-cover" />
+          <img src={image} alt="My Logo" className="h-full w-full rounded-full object-cover" />
         </div>
 
         {/* Desktop Navigation */}
