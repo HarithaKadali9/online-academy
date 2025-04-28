@@ -7,7 +7,7 @@ const Contact = () => {
         <div className='bg-white bg-opacity-90 p-10 rounded-lg max-w-[800px] w-full text-center border border-gray-200'>
           <h2 className='text-4xl font-extrabold text-blue-700 mb-4 tracking-wide'>Contact Me</h2>
           <p className='text-gray-600 mb-8'>I'd love to hear from you. Fill out the form and I’ll get back to you soon.</p>
-          <form action="https://getform.io/f/byvplyla" method="POST">
+          <form action="https://getform.io/f/adrnjwla" method="POST">
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-6'>
               <input
                 type="text"
